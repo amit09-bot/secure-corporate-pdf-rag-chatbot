@@ -1,4 +1,4 @@
-# Python RAG Chatbot with Vector Search
+# Secure Cooperate PDF RAG ChatBot
 
 A simple Retrieval-Augmented Generation (RAG) chatbot built with Python, LangChain, OpenAI embeddings, and a local Chroma vector database. The bot reads documents from `source_documents/`, indexes them, and answers questions by retrieving relevant content.
 
