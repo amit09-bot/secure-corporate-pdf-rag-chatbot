@@ -1,0 +1,3 @@
+This is an example document for the RAG chatbot. The chatbot uses a vector database to retrieve relevant passages from documents and answer questions.
+
+You can add more text files, markdown files, or PDF documents in the source_documents directory. Then run ingest.py to rebuild the semantic search index.

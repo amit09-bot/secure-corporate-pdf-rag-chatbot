@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG Chatbot Project</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background: #f7f9fc; color: #1f2937; }
+    h1 { color: #111827; }
+    .card { background: #ffffff; border-radius: 12px; border: 1px solid #d1d5db; padding: 24px; max-width: 800px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08); }
+    a.button { display: inline-block; background: #2563eb; color: white; padding: 12px 18px; border-radius: 8px; text-decoration: none; margin-top: 10px; }
+    code { display: block; background: #f3f4f6; padding: 10px; border-radius: 8px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>RAG Chatbot Project</h1>
+    <p>Your project is served locally. This is the website view of the created RAG chatbot folder.</p>
+    <p>Open this page in your browser at:</p>
+    <code>http://localhost:8000</code>
+    <p>Files available in this folder:</p>
+    <ul>
+      <li><strong>app.py</strong> - chatbot runtime entrypoint</li>
+      <li><strong>ingest.py</strong> - document ingestion and Chroma indexing</li>
+      <li><strong>requirements.txt</strong> - dependencies</li>
+      <li><strong>README.md</strong> - usage instructions</li>
+      <li><strong>source_documents/example.txt</strong> - sample document</li>
+    </ul>
+    <p>If you want to run the chatbot, open PowerShell in this folder and execute:</p>
+    <code>python ingest.py</code>
+    <code>python app.py</code>
+    <p>Note: the current site is static and served from the local project folder.</p>
+  </div>
+</body>
+</html>
